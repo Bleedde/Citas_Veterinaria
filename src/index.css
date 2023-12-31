@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (min-width: 768px) {
+    .h-222{
+        min-height: 85vh; /* Establece una altura mínima del 85% del viewport */
+        max-height: 1px; /* Establece una altura máxima de 222px */
+        overflow-y: auto; /* Añade desplazamiento vertical si el contenido excede la altura máxima */
+    }
+}
+
